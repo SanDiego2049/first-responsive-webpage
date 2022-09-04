@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main .text{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main .text .bg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.main .heading{
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.main .heading .welcome{
+    color: white;
+    font-family: Verdana, 'Geneva', Tahoma, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding: 0 2rem;
+}
+
+
+.btn{
+    background: rgb(255, 61, 61);
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transform: translateY(410%)
+}
+
+.btn:hover{
+    background: red;
+    transition: .4s ease-in-out;
+}
